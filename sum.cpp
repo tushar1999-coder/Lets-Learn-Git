@@ -34,8 +34,12 @@ void solve()
 int main()
 {
 
-    int a = 3;
-    int b = 10;
+    int a;
+    int b;
+    cout << "Enter first number : ";
+    cin >> a;
+    cout << "Enter second number : ";
+    cin >> b;
     int sum = a + b;
     cout << "the sum is " << sum;
 
